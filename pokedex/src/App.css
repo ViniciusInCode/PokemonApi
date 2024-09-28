@@ -1,0 +1,38 @@
+/* src/components/PokemonList.css */
+.pokemon-list {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.pokemon-list h1 {
+    color: #ffcb05;
+}
+
+.pokemon-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-list li {
+    background-color: #3b4cca;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.pokemon-list li:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-list img {
+    width: 100px;
+    height: 100px;
+}
